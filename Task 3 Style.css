@@ -1,0 +1,77 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.f-div {
+    width: 100%;
+    height: 625px;
+    background-color: rgb(18, 151, 18);
+    overflow: hidden;
+
+
+}
+
+.s-div {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(146, 43, 43);
+    border-bottom: white solid 4px;
+    position: relative;
+
+
+}
+
+.t-div {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(18, 151, 18);
+    border-bottom: white solid 4px;
+
+}
+
+img {
+    animation-name: run;
+    animation-duration: 26s;
+    animation-iteration-count: infinite;
+    left: 0%;
+}
+
+.p1 {
+    width: 120px;
+    position: absolute;
+    margin-top: 360px;
+    
+}
+
+.p2 {
+    width: 150px;
+    position: absolute;
+    margin-top: 210px;
+    animation-name: run;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    left: 0%;
+}
+
+.p3 {
+    width: 150px;
+    position: absolute;
+    margin-top: 50px;
+    animation-name: run;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    left: 0%;
+}
+ 
+@keyframes run{
+    25%{
+        left: 110%;
+    }
+    70%{
+        transform: rotateY(180deg);
+    }
+    75%{
+        left: -20%;
+    }
+}
